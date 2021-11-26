@@ -1,0 +1,235 @@
+2021-11-26,20:19:58.571 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-11-26,20:19:58.572 DEBUG    [connectionpool.py:227] Starting new HTTP connection (1): localhost:54524
+2021-11-26,20:19:59.364 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session HTTP/1.1" 200 787
+2021-11-26,20:19:59.365 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:19:59.365 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/url {"url": "https://www.adjarabet.com/en/Casino/All/All"}
+2021-11-26,20:20:02.579 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/url HTTP/1.1" 200 14
+2021-11-26,20:20:02.580 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:02.580 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/element {"using": "css selector", "value": "#login-form > div._s_aitem-scroll-scrolled-none._s_flex._s_flex-a-start > div._s_flex._s_position-relative._s_mr-2 > div > input"}
+2021-11-26,20:20:02.591 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/element HTTP/1.1" 200 88
+2021-11-26,20:20:02.592 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:02.592 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/element/ede9db0b-ca5b-46dd-ba44-691dd30ba64e/value {"text": "magdamd", "value": ["m", "a", "g", "d", "a", "m", "d"], "id": "ede9db0b-ca5b-46dd-ba44-691dd30ba64e"}
+2021-11-26,20:20:02.653 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/element/ede9db0b-ca5b-46dd-ba44-691dd30ba64e/value HTTP/1.1" 200 14
+2021-11-26,20:20:02.653 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:02.653 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/element {"using": "css selector", "value": "#login-form > div._s_aitem-scroll-scrolled-none._s_flex._s_flex-a-start > div:nth-child(2) > div > input"}
+2021-11-26,20:20:02.664 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/element HTTP/1.1" 200 88
+2021-11-26,20:20:02.664 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:02.664 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/element/fc9fa018-f7a7-45d1-84a4-fc1f1a339e83/value {"text": "Kipiwelnik1", "value": ["K", "i", "p", "i", "w", "e", "l", "n", "i", "k", "1"], "id": "fc9fa018-f7a7-45d1-84a4-fc1f1a339e83"}
+2021-11-26,20:20:02.728 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/element/fc9fa018-f7a7-45d1-84a4-fc1f1a339e83/value HTTP/1.1" 200 14
+2021-11-26,20:20:02.729 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:02.729 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/element {"using": "css selector", "value": "#login-form > div._s_flex._s_ml-5 > button > span"}
+2021-11-26,20:20:02.739 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/element HTTP/1.1" 200 88
+2021-11-26,20:20:02.739 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:02.740 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/element/727b9e56-3ae9-4eec-9ced-2ee96e2d145f/click {"id": "727b9e56-3ae9-4eec-9ced-2ee96e2d145f"}
+2021-11-26,20:20:02.817 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/element/727b9e56-3ae9-4eec-9ced-2ee96e2d145f/click HTTP/1.1" 200 14
+2021-11-26,20:20:02.818 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:03.819 INFO     [Adjara.py:33] Authorization on the site is successful
+2021-11-26,20:20:03.819 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/url {"url": "https://www.adjarabet.com/en/ingame?id=101680&gameId=6053&pid=73&type=Casino"}
+2021-11-26,20:20:08.170 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/url HTTP/1.1" 200 14
+2021-11-26,20:20:08.171 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:10.175 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/element {"using": "css selector", "value": "iframe"}
+2021-11-26,20:20:10.222 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/element HTTP/1.1" 200 88
+2021-11-26,20:20:10.223 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:10.223 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/frame {"id": {"element-6066-11e4-a52e-4f735466cecf": "061b4bde-3943-42d7-a5bb-5edf8f2784f6"}}
+2021-11-26,20:20:10.277 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/frame HTTP/1.1" 200 14
+2021-11-26,20:20:10.277 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:12.287 INFO     [Adjara.py:42] Successfully switch to roulette frame
+2021-11-26,20:20:12.288 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:20:12.301 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/element HTTP/1.1" 200 88
+2021-11-26,20:20:12.301 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:12.302 DEBUG    [remote_connection.py:435] GET http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/element/ef1fb81e-d5b8-41c5-aebf-651c11cd43ee/text {"id": "ef1fb81e-d5b8-41c5-aebf-651c11cd43ee"}
+2021-11-26,20:20:12.316 DEBUG    [connectionpool.py:452] http://localhost:54524 "GET /session/1e05cf6a5363493fdd8ef3cd86f78a3c/element/ef1fb81e-d5b8-41c5-aebf-651c11cd43ee/text HTTP/1.1" 200 12
+2021-11-26,20:20:12.316 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:22.292 DEBUG    [remote_connection.py:435] POST http://localhost:54524/session/1e05cf6a5363493fdd8ef3cd86f78a3c/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:20:22.308 DEBUG    [connectionpool.py:452] http://localhost:54524 "POST /session/1e05cf6a5363493fdd8ef3cd86f78a3c/element HTTP/1.1" 404 1093
+2021-11-26,20:20:22.309 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:33.354 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-11-26,20:20:33.356 DEBUG    [connectionpool.py:227] Starting new HTTP connection (1): localhost:51041
+2021-11-26,20:20:34.181 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session HTTP/1.1" 200 786
+2021-11-26,20:20:34.181 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:34.181 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/url {"url": "https://www.adjarabet.com/en/Casino/All/All"}
+2021-11-26,20:20:37.779 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/url HTTP/1.1" 200 14
+2021-11-26,20:20:37.780 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:37.780 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#login-form > div._s_aitem-scroll-scrolled-none._s_flex._s_flex-a-start > div._s_flex._s_position-relative._s_mr-2 > div > input"}
+2021-11-26,20:20:37.792 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:20:37.792 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:37.792 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/ccef34e2-5ae5-46df-94bd-d6d54babdc3c/value {"text": "magdamd", "value": ["m", "a", "g", "d", "a", "m", "d"], "id": "ccef34e2-5ae5-46df-94bd-d6d54babdc3c"}
+2021-11-26,20:20:37.864 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element/ccef34e2-5ae5-46df-94bd-d6d54babdc3c/value HTTP/1.1" 200 14
+2021-11-26,20:20:37.865 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:37.865 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#login-form > div._s_aitem-scroll-scrolled-none._s_flex._s_flex-a-start > div:nth-child(2) > div > input"}
+2021-11-26,20:20:37.877 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:20:37.878 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:37.878 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/c91962cd-40f6-402e-bd2e-b4a0e7264660/value {"text": "Kipiwelnik1", "value": ["K", "i", "p", "i", "w", "e", "l", "n", "i", "k", "1"], "id": "c91962cd-40f6-402e-bd2e-b4a0e7264660"}
+2021-11-26,20:20:37.945 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element/c91962cd-40f6-402e-bd2e-b4a0e7264660/value HTTP/1.1" 200 14
+2021-11-26,20:20:37.946 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:37.946 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#login-form > div._s_flex._s_ml-5 > button > span"}
+2021-11-26,20:20:37.956 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:20:37.956 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:37.957 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/f3de34b1-e2b5-444d-b777-c65c8b1f9434/click {"id": "f3de34b1-e2b5-444d-b777-c65c8b1f9434"}
+2021-11-26,20:20:38.038 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element/f3de34b1-e2b5-444d-b777-c65c8b1f9434/click HTTP/1.1" 200 14
+2021-11-26,20:20:38.038 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:39.039 INFO     [Adjara.py:33] Authorization on the site is successful
+2021-11-26,20:20:39.039 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/url {"url": "https://www.adjarabet.com/en/ingame?id=101680&gameId=6053&pid=73&type=Casino"}
+2021-11-26,20:20:40.548 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/url HTTP/1.1" 200 14
+2021-11-26,20:20:40.548 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:42.550 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "iframe"}
+2021-11-26,20:20:42.729 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:20:42.730 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:42.730 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/frame {"id": {"element-6066-11e4-a52e-4f735466cecf": "050c9fef-ce21-4279-9f6d-a1ccecc8e26c"}}
+2021-11-26,20:20:42.778 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/frame HTTP/1.1" 200 14
+2021-11-26,20:20:42.778 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:44.779 INFO     [Adjara.py:42] Successfully switch to roulette frame
+2021-11-26,20:20:44.780 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:20:44.796 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:20:44.796 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:44.797 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:20:44.812 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:20:44.812 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:44.812 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "xpath", "value": "//*[@id='TopLevelEvents']/div[1]/main/div[1]/div[2]/div[2]/div[1]/div/div[1]/div"}
+2021-11-26,20:20:44.828 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:20:44.828 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:44.829 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/340edb82-ce04-4c8c-89ba-514abb80abe0/text {"id": "340edb82-ce04-4c8c-89ba-514abb80abe0"}
+2021-11-26,20:20:44.845 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/340edb82-ce04-4c8c-89ba-514abb80abe0/text HTTP/1.1" 200 14
+2021-11-26,20:20:44.845 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:45.204 INFO     [logically.py:64] The connection to the base is established
+2021-11-26,20:20:47.444 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "xpath", "value": "//*[@id='TopLevelEvents']/div[1]/main/div[1]/div[2]/div[1]/div[1]/div/div[2]/div[2]/div/span[2]/span[1]"}
+2021-11-26,20:20:47.456 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:20:47.457 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:47.457 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/15268a5a-205c-4d18-990a-c60cafbb98f4/text {"id": "15268a5a-205c-4d18-990a-c60cafbb98f4"}
+2021-11-26,20:20:47.471 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/15268a5a-205c-4d18-990a-c60cafbb98f4/text HTTP/1.1" 200 16
+2021-11-26,20:20:47.472 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:54.794 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:20:54.800 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:20:54.801 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:20:54.801 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:20:54.808 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:20:54.808 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:04.796 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:21:04.807 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:21:04.808 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:04.808 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:21:04.820 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:21:04.820 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:04.821 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "xpath", "value": "//*[@id='TopLevelEvents']/div[1]/main/div[1]/div[2]/div[2]/div[1]/div/div[1]/div"}
+2021-11-26,20:21:04.832 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:21:04.833 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:04.833 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/340edb82-ce04-4c8c-89ba-514abb80abe0/text {"id": "340edb82-ce04-4c8c-89ba-514abb80abe0"}
+2021-11-26,20:21:04.846 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/340edb82-ce04-4c8c-89ba-514abb80abe0/text HTTP/1.1" 200 14
+2021-11-26,20:21:04.847 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:05.095 INFO     [logically.py:64] The connection to the base is established
+2021-11-26,20:21:07.255 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "xpath", "value": "//*[@id='TopLevelEvents']/div[1]/main/div[1]/div[2]/div[1]/div[1]/div/div[2]/div[2]/div/span[2]/span[1]"}
+2021-11-26,20:21:07.269 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:21:07.269 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:07.269 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/15268a5a-205c-4d18-990a-c60cafbb98f4/text {"id": "15268a5a-205c-4d18-990a-c60cafbb98f4"}
+2021-11-26,20:21:07.284 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/15268a5a-205c-4d18-990a-c60cafbb98f4/text HTTP/1.1" 200 16
+2021-11-26,20:21:07.284 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:14.806 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:21:14.813 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:21:14.814 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:14.814 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:21:14.821 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:21:14.821 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:24.815 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:21:24.839 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:21:24.840 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:24.841 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:21:24.866 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:21:24.867 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:34.819 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:21:34.827 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:21:34.827 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:34.827 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:21:34.834 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:21:34.835 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:44.821 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:21:44.835 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:21:44.836 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:44.836 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:21:44.845 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:21:44.845 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:54.822 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:21:54.830 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:21:54.831 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:21:54.831 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:21:54.839 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:21:54.839 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:04.832 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:22:04.840 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:22:04.840 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:04.840 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:22:04.848 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:22:04.848 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:14.836 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:22:14.854 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:22:14.855 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:14.855 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:22:14.871 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:22:14.872 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:14.872 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "xpath", "value": "//*[@id='TopLevelEvents']/div[1]/main/div[1]/div[2]/div[2]/div[1]/div/div[1]/div"}
+2021-11-26,20:22:14.897 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:22:14.897 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:14.897 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/85066d4d-3f66-414c-a663-e6268567a134/text {"id": "85066d4d-3f66-414c-a663-e6268567a134"}
+2021-11-26,20:22:14.911 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/85066d4d-3f66-414c-a663-e6268567a134/text HTTP/1.1" 200 13
+2021-11-26,20:22:14.911 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:15.150 INFO     [logically.py:64] The connection to the base is established
+2021-11-26,20:22:17.324 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "xpath", "value": "//*[@id='TopLevelEvents']/div[1]/main/div[1]/div[2]/div[1]/div[1]/div/div[2]/div[2]/div/span[2]/span[1]"}
+2021-11-26,20:22:17.335 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:22:17.335 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:17.335 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/15268a5a-205c-4d18-990a-c60cafbb98f4/text {"id": "15268a5a-205c-4d18-990a-c60cafbb98f4"}
+2021-11-26,20:22:17.350 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/15268a5a-205c-4d18-990a-c60cafbb98f4/text HTTP/1.1" 200 16
+2021-11-26,20:22:17.350 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:24.844 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:22:24.853 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:22:24.853 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:24.854 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:22:24.861 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:22:24.862 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:34.856 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:22:34.864 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:22:34.864 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:34.865 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:22:34.875 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:22:34.875 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:44.861 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:22:44.874 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:22:44.875 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:44.876 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:22:44.890 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:22:44.891 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:54.861 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:22:54.873 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:22:54.873 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:22:54.874 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:22:54.885 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:22:54.886 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:23:04.875 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:23:04.890 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:23:04.891 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:23:04.891 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:23:04.904 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:23:04.905 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:23:14.890 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:23:14.917 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:23:14.918 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:23:14.919 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:23:14.943 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:23:14.944 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:23:24.904 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "css selector", "value": "#TopLevelEvents > div.Game > main > div.Footer > span.Label > span.Label__text"}
+2021-11-26,20:23:24.912 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:23:24.913 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:23:24.913 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text {"id": "39f78725-1cf5-4617-8811-306fac444c0e"}
+2021-11-26,20:23:24.922 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/39f78725-1cf5-4617-8811-306fac444c0e/text HTTP/1.1" 200 19
+2021-11-26,20:23:24.922 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:23:24.922 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "xpath", "value": "//*[@id='TopLevelEvents']/div[1]/main/div[1]/div[2]/div[2]/div[1]/div/div[1]/div"}
+2021-11-26,20:23:24.934 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:23:24.934 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:23:24.934 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/e5888a13-9dec-438b-8dec-ee3621ce15cc/text {"id": "e5888a13-9dec-438b-8dec-ee3621ce15cc"}
+2021-11-26,20:23:24.948 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/e5888a13-9dec-438b-8dec-ee3621ce15cc/text HTTP/1.1" 200 14
+2021-11-26,20:23:24.948 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:23:25.184 INFO     [logically.py:64] The connection to the base is established
+2021-11-26,20:23:27.403 DEBUG    [remote_connection.py:435] POST http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element {"using": "xpath", "value": "//*[@id='TopLevelEvents']/div[1]/main/div[1]/div[2]/div[1]/div[1]/div/div[2]/div[2]/div/span[2]/span[1]"}
+2021-11-26,20:23:27.431 DEBUG    [connectionpool.py:452] http://localhost:51041 "POST /session/6625c7a6a652c8ab85e673820ef48305/element HTTP/1.1" 200 88
+2021-11-26,20:23:27.431 DEBUG    [remote_connection.py:486] Finished Request
+2021-11-26,20:23:27.432 DEBUG    [remote_connection.py:435] GET http://localhost:51041/session/6625c7a6a652c8ab85e673820ef48305/element/15268a5a-205c-4d18-990a-c60cafbb98f4/text {"id": "15268a5a-205c-4d18-990a-c60cafbb98f4"}
+2021-11-26,20:23:27.457 DEBUG    [connectionpool.py:452] http://localhost:51041 "GET /session/6625c7a6a652c8ab85e673820ef48305/element/15268a5a-205c-4d18-990a-c60cafbb98f4/text HTTP/1.1" 200 16
+2021-11-26,20:23:27.457 DEBUG    [remote_connection.py:486] Finished Request
