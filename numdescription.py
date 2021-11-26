@@ -51,5 +51,5 @@ def ricxvis_agwera(NumX):
     Num35 = NumberDescription("35", "black", "odd", "high", "line2", "sector3")
     Num36 = NumberDescription("36", "red", "even", "high", "line3", "sector3")
 
-    return (eval(NumX).__dict__)
+    return eval(NumX).__dict__
 
